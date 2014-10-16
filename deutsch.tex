@@ -1,7 +1,34 @@
 \documentclass[a4paper,12pt]{article}
 
-\begin{document}
+%\title{Deutsch: Die Hausaufgaben}
+%\date{Oktober 15, 2014}
+%\author{D.Babula \\ Bury GmBH L\"ohne Deutschlang }
+\makeatletter
 
+\def\thickhrulefill{\leavevmode \leaders \hrule height 1pt\hfill \kern \z@}
+\def\maketitle{%
+    \null
+    \thispagestyle{empty}%
+    \vfill
+    \begin{center}\leavevmode
+    \normalfont
+    {\LARGE\raggedleft \@author\par}%
+    \thickhrulefill\par
+    {\huge\raggedright \@title\par}%
+    \vskip 1cm
+    \end{center}%
+    \vfill
+    {\Large \@date\par}%
+    \null
+    \cleardoublepage
+    }
+    \makeatother
+    \author{Dawid Babula}
+    \title{Deutsch -- die Hausaufgaben}
+    \date{Oktober 15, 2014}
+
+\begin{document}
+\maketitle
 
 \begin{enumerate}
     \item K\"onnten Sie mir bitte den Namen Ihrer Frau buchstabieren?
