@@ -1,0 +1,137 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Journal Article
+% LaTeX Template
+% Version 1.3 (9/9/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Frits Wenneker (http://www.howtotex.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[twoside]{article}
+
+\usepackage{lipsum} % Package to generate dummy text throughout this template
+
+\usepackage[sc]{mathpazo} % Use the Palatino font
+\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+\linespread{1.05} % Line spacing - Palatino needs more space between lines
+\usepackage{microtype} % Slightly tweak font spacing for aesthetics
+
+\usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+\usepackage{multicol} % Used for the two-column layout of the document
+\usepackage[hang, small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under/above floats in tables or figures
+\usepackage{booktabs} % Horizontal rules in tables
+\usepackage{float} % Required for tables and figures in the multi-column environment - they need to be placed in specific locations with the [H] (e.g. \begin{table}[H])
+\usepackage{hyperref} % For hyperlinks in the PDF
+
+\usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+\usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+
+\usepackage{abstract} % Allows abstract customization
+\renewcommand{\abstractnamefont}{\normalfont\bfseries} % Set the "Abstract" text to bold
+\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text
+
+\usepackage{titlesec} % Allows customization of titles
+\renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+\renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+\titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+\titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+
+\usepackage{fancyhdr} % Headers and footers
+\pagestyle{fancy} % All pages have headers and footers
+\fancyhead{} % Blank out the default header
+\fancyfoot{} % Blank out the default footer
+\fancyhead[C]{ Wenn W\"orter auf die Reise gehen $\bullet$ April 2015 } % Custom header text
+\fancyfoot[RO,LE]{\thepage} % Custom footer text
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{Wenn W\"orter auf die Reise gehen}} % Article title
+
+\author{
+\large
+\textsc{Unknown Author}\\[2mm] % Your name
+\normalsize Neue Westf\"alische \\ % Your institution
+\normalsize \href{mailto:gfsekretariat@nw.de}{gfsekretariat@nw.de} % Your email address
+\vspace{-5mm}
+}
+\date{}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\maketitle % Insert title
+
+\thispagestyle{fancy} % All pages have headers and footers
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT
+%----------------------------------------------------------------------------------------
+
+\begin{abstract}
+
+\begin{center}
+\noindent Philipp Reis entwickelte vor 150 Jahren das erste Telefon
+\end{center}
+
+\end{abstract}
+
+%----------------------------------------------------------------------------------------
+%	ARTICLE CONTENTS
+%----------------------------------------------------------------------------------------
+
+\begin{multicols}{2} % Two-column layout throughout the main article text
+
+\section{DER TEST}
+
+\lettrine[nindent=0em,lines=3]{D}as Pferd frisst\footnote{fressen - fra{\ss} - hat gefressen - }
+keinen Gurkensalat\footnote{der Salat - sa\l{}atka}.Und: "Die Sonne ist von Kupfer\footnote{das Kupfer - mied\'z}." Was ist denn das f\"ur ein Quatsch?
+ Quatsch ist ein gutes Stichwort. Besser gesagt: quatschen.
+ Denn diese S\"atze wurden vor vielen Jahren gesprochen,
+ um ein besonderes, neues Ger\"at zu testen: das Telefon.
+ So nannte der deutsche Lehrer Philipp Reis seine Erfindung.
+ Er hatte lange Zeit daran herumget\"uftelt, bis er schlie{\ss}lich
+ vor rund 150 Jahren sein Telefon das erste Mal testete.
+
+%------------------------------------------------
+
+\section{ELEKTRISCHE SIGNALE}
+
+Das Telefon bestand aus einer Art h\"olzernen Ohrmuschel. Dar\"uber
+ spannte Philipp Reis ein St\"uck Tierhaut. Zudem geh\"orten zu seinem
+ Telefon unter anderem noch eine Batterie und eine Stricknadel. Klingt
+ ziemlich verr\"uckt, aber man konnte damit tats\"achlich W\"orter
+ auf die Reise schicken. Die Konstruktion von Philipp Reis verwandelte
+ das Gesprochene in elektrische Signale. Das ging dann durch einen
+ Draht und wurde am anderen Ende wieder zu gesprochenen Worten.
+
+%------------------------------------------------
+
+\section{ERFINDUNG OHNE ERFOLG}
+
+Allerdings funktionierte das Ganze noch nicht einwandfrei. Als sein
+ Kollege den Satz mit der Sonne aus Kupfer sprach,verstand der Efinder
+ wohl: "Die Sonne ist von Zucker." Philipp Reis entwickelte sein Telefon
+ noch weiter. Gro{\ss}en Erfolg hatte er aber nicht. Das war bei Alexander
+ Graham Bell einige Jahre sp\"ater anders. Er wird heute oft als Erfinder
+ des Telefons genannt, denn er bekam das Patent f\"ur die Erfindung.Er wurde
+ als Erfinder anerkannt.
+
+%------------------------------------------------
+
+\end{multicols}
+
+\end{document}
